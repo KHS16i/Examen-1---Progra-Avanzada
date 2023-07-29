@@ -25,3 +25,4 @@ botonLimpiar.addEventListener("click", function () {
     boton.style.color = "";
     boton.style.backgroundColor = "";
 });
+

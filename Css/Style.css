@@ -34,7 +34,8 @@ nav ul li{
     margin-right: 20px;
 }
 
-a{
+a
+{
     /*Se quita la decoracion del texto*/
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -42,7 +43,8 @@ a{
     transition: .5s;
 }
 /*Se cambia color con evento HOVER al pasar el raton por encima*/
-a:hover{
+a:hover
+{
     color: #ff523b;
 }
 
@@ -53,7 +55,7 @@ p{
 
 .Main-content{
     /*Se coloca wallpaper para el Div principal*/
-    background: url(Recursos/img/wallpaper.jpg) center/cover;
+    background: url(../Recursos/img/wallpaper.jpg) center/cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -209,7 +211,7 @@ header .row{
     margin: 0px auto;
     position: relative;
     line-height: 60px;
-    color: #555;
+    color: #2c2c2c;
 }
 
 .title::after{
@@ -374,7 +376,7 @@ footer hr{
 
 
 #body-Contact {
-    background: url('Recursos/img/wallpaper.jpg');
+    background: url('../Recursos/img/wallpaper.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -383,7 +385,7 @@ footer hr{
 
 .div-h1 {
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-    padding: 3%;
+    padding: 4%;
     background-color: white;
     margin-bottom: 3%;
 }
@@ -498,20 +500,49 @@ button:active {
 
 
 
+/*------------------------------Estilos de Contactanos------------------------*/
 
+section
+{
+    background: url(Recursos/img/wallpaper.jpg) center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+article
+{
+    margin: 50px auto;
+    box-shadow: 0 4px 8px 0 rgba(71, 71, 71, 0.2);
+    border-radius: 10px;
+    margin-top: 2%;
+    max-width: 800px;
+    transition: transform 0.8s;
+    background-color: white;
+    padding: 20px 25px;
+}
 
+article p
+{
+    color: #555;
+    padding: 3%;
+    margin-left: 15px;
+}
 
+article h1
+{
+    padding-top: 2%;
+    display: flex;
+    color: #000000;
+}
 
+h1
+{
+    transition: transform 0.8s;
+}
 
-
-
-
-
-
-
-
-
-
-
+article:hover
+{
+    transform: scale(100.5%);
+}
 
